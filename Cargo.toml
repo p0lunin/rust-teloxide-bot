@@ -1,0 +1,15 @@
+[package]
+name = "botrust"
+version = "0.1.0"
+authors = ["p0lunin <dmytro.polunin@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+teloxide = { git = "https://github.com/teloxide/teloxide", branch = "session-dispatcher" }
+tokio = "0.2.6"
+pretty_env_logger = "0.3"
+futures = "0.3.1"
+log = "0.4.8"
+serde_json = "*"
